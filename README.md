@@ -25,14 +25,15 @@ The backend connects to PostgreSQL with the following credentials:
 
 Uploaded files will be stored in `./upload` directory relative to backend root.
 
-### Running Backend
 ```bash
+# Running Backend
+
 cd backend
 mvn clean install
 mvn spring-boot:run
 
 
-### Frontend Setup & Running
+# Frontend Setup & Running
 cd frontend
 npm install
 npm run dev
